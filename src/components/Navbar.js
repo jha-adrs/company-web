@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import logo from "../assets/images/logo.jpg";
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {
@@ -41,7 +42,11 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              DarkLeas
+              <img
+                src={logo}
+                alt="Company Logo"
+                style={{ width: "50px", height: "auto", objectFit: "contain" }}
+              />
             </Link>
           </h1>
           <ul className="bar">
@@ -61,12 +66,12 @@ function Navbar() {
               <Link
                 onClick={openBar}
                 activeClass="active"
-                to="services"
+                to="products"
                 spy={true}
                 smooth={true}
                 duration={1000}
               >
-                Services
+                Products
               </Link>
             </li>
             <li>
