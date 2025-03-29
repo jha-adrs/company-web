@@ -3,6 +3,7 @@
     { "src": "/static/(.*)", "dest": "/static/$1" },
     { "src": "/manifest.json", "dest": "/manifest.json" },
     { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/(.*\\.(mp4|webm|ogg|mov|avi))", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
