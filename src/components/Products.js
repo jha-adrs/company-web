@@ -19,16 +19,16 @@ function Products() {
             </div>
             <div className="col-md-4 mb-2">
               <Card
-                title="E-Commerce Services"
+                title="Dubblin Products"
                 img={card2} // ✅ Pass imported image directly
-                text="Maecenas dictum efficitur felis non gravida. Vestibulum vitae ante luctus, accumsan mi vitae, pretium metus."
+                text="Dubblin offers stylish and durable drinkware and kitchenware—perfect for daily use, travel, and gifting. Quality meets convenience in every product."
               />
             </div>
             <div className="col-md-4 mb-2">
               <Card
-                title="Cyber Security"
+                title="Office Furniture"
                 img={card3} // ✅ Pass imported image directly
-                text="Phasellus suscipit nibh at nisi finibus vestibulum sit amet vitae massa. Suspendisse non est eget elit pulvinar consectetur nec non sapien."
+                text="Office Furniture that’s built for comfort, style, and productivity—perfect for creating efficient and modern workspaces that get things done."
               />
             </div>
           </div>
