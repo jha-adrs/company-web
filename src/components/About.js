@@ -15,9 +15,9 @@ function About() {
           <div className="col-md-6">
             <h2 className="main-title about-h2">ABOUT</h2>
             <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
+              National Enterprises is a reliable provider of quality products,
+              known for its commitment to innovation, customer satisfaction, and
+              consistent service across industries.
             </p>
           </div>
         </div>
